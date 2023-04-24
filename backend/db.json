@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Xiaomi Poco X3 Pro",
+      "price": 2000,
+      "description": "um ótimo celular"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi Poco X4 Pro",
+      "price": 3000,
+      "description": "um celular ainda melhor"
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Poco X5 Pro",
+      "price": 4000,
+      "description": "um excelente celular"
+    },
+    {
+      "id": 4,
+      "name": "Xiaomi Poco X6 Pro",
+      "price": 5000,
+      "description": "um celular extraordinário"
+    },
+    {
+      "id": 5,
+      "name": "Geladeira FrostFree",
+      "price": 100,
+      "description": "uma geladeira espaçosa"
+    },
+    {
+      "name": "Fone de Ouvidos",
+      "price": "200",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "date": "2023-04-20T14:30:00.000Z",
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 2
+        },
+        {
+          "product_id": 3,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2023-04-20T15:30:00.000Z",
+      "items": [
+        {
+          "product_id": 2,
+          "quantity": 1
+        },
+        {
+          "product_id": 4,
+          "quantity": 3
+        }
+      ]
+    }
+  ]
+}
